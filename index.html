@@ -1,11 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        /* Add some style to your website frame */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: #c1c1c1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+            background-color: #eee;
+            padding: 10px;
+        }
+
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .nav a:hover {
+            background-color: #ddd;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .main .card {
+            flex: 1 1 300px;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #c1c1c1;
+        }
+
+        .main .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .main .card h3 {
+            margin: 10px 0;
+        }
+
+        .main .card p {
+            color: #c1c1c1;
+        }
+
+        .main .card a {
+            display: block;
+            background-color: #c1c1c1;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .main .card a:hover {
+            background-color: #c1c1c1;
+        }
+
+        .footer {
+            background-color: #c1c1c1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .photo1 {
+            width: 78.15vw;
+        }
+    </style>
 </head>
 <body>
-    <p> Hello this is om prakash Ghimire and i am from dangihat</p>
+    <div class="container">
+        <!-- Add a header with your name and a slogan -->
+        <div class="header">
+            <h1>Welcome to omprakashghimire.com.np</h1>
+            <p>A website dedicated to environment and environmental issues.</p>
+        </div>
+        <!-- Add a navigation bar with links to your home, about, portfolio, and contact pages -->
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Topics of Discussion</a>
+            <a href="#">About Me</a>
+        </div>
+        <div>
+            <img class=photo1 src="images/b.jpg" alt="">
+        </div>
+        
+        <!-- Add a footer with your social media links -->
+        <div class="footer">
+            <p>Follow me on:</p>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
 </body>
 </html>
+
